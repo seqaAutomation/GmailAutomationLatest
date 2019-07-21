@@ -19,7 +19,7 @@ public class Test10 extends Base{
 	  String url = fileUtility.getDataFromConfig("URL");
 	  driver().get(url);
 	  think(3000);
-	  report.captureScreenShot("Google");	
+	  report.captureScreenShot(url);	
 	  report.log("PASS", ReportCreator.getTestName());
 	  report.log("PASS", System.getProperty("url"));
 	  report.log("PASS", System.getProperty("url")+" Ant test completed");
