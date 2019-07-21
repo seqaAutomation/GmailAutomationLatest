@@ -11,7 +11,7 @@ public class ConfigCreator {
   @Test
   public void loadConfigValFromJenkins() 
   {
-	  String url = System.getProperty("Url");
+	  String url = System.getProperty("url");
 	  String browser = System.getProperty("Browser");
 	  String productParallelRun = System.getProperty("ProductParallelRun");
 	  String testCaseInProductParallelRun = System.getProperty("TestCaseInProductParallelRun");
